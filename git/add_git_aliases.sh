@@ -12,3 +12,6 @@ git config --global alias.u unstage
 git config --global alias.co checkout
 git config --global alias.b branch
 git config --global alias.alias "config --get-regexp ^alias\."
+
+git config --global user.email "samdup123@gmail.com"
+git config --global user.name "Sam DuPlessis"
