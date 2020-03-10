@@ -10,6 +10,7 @@ git config --global alias.unstage "reset HEAD --"
 git config --global alias.u "reset HEAD --"
 git config --global alias.co checkout
 git config --global alias.b branch
+git config --global alias.subup "submodule update --init --recursive"
 git config --global alias.alias "config --get-regexp ^alias\."
 
 git config --global core.editor "vim"
