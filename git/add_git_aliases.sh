@@ -14,6 +14,3 @@ git config --global alias.subup "submodule update --init --recursive"
 git config --global alias.alias "config --get-regexp ^alias\."
 
 git config --global core.editor "vim"
-
-git config --global user.email "samdup123@gmail.com"
-git config --global user.name "Sam DuPlessis"
