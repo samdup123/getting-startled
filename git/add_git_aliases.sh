@@ -11,7 +11,6 @@ git config --global alias.u "reset HEAD --"
 git config --global alias.co checkout
 git config --global alias.b branch
 git config --global alias.subup "submodule update --init --recursive"
-git config --global alias.subup-force "submodule sync --recursive && git submodule update --init --recursive --force && git submodule foreach --recursive git clean -ffd && git clean -ffd"
 git config --global alias.alias "config --get-regexp ^alias\."
-
+alias subup-force="git submodule sync --recursive && git submodule update --init --recursive --force && git submodule foreach --recursive git clean -ffd && git clean -ffd"
 git config --global core.editor "vim"
